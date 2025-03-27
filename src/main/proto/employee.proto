@@ -1,0 +1,19 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+
+message Employee {
+  int32 id = 1;
+  string name = 2;
+  double salary = 3;
+  repeated Department departments = 4;
+  map<string, string> addressMap = 5;
+  bool isActive = 6;
+  bytes profilePicture = 7;
+  google.protobuf.Timestamp joinDate= 8;
+}
+
+
+message Department {
+  int32 id = 1;
+  string name = 2;
+}
