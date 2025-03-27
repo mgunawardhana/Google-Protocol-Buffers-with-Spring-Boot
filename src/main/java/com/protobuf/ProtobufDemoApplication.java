@@ -1,4 +1,4 @@
-package com.protobux;
+package com.protobuf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

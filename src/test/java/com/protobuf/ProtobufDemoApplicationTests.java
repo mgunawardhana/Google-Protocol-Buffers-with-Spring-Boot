@@ -1,4 +1,4 @@
-package com.protobux;
+package com.protobuf;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
